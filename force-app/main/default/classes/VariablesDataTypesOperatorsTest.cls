@@ -73,9 +73,7 @@ public class VariablesDataTypesOperatorsTest {
         result = VariablesDataTypesOperators.concatenateStrings('Hello', 'Cloud');
         Assert.areEqual('HelloCloud', result, 'Incorrect concatenateStrings result');
     }
-
-
-	@IsTest
+    @IsTest
 	static void testCreateSentence() {
 		// Test with noun 'cat' and verb 'jumping'
 		String result = VariablesDataTypesOperators.createSentence('cat', 'jumping', '!');
